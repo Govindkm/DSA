@@ -1,0 +1,8 @@
+1. Big O -- Exact or Upper Bound
+The algorithm takes O(n) or less (maximum time) Worst Case
+
+2. Theta -- Exact
+The algorithm takes O(n) exactly (exact time)
+
+3. Omega -- Exact or Lower
+The algorithm takes O(n) or higher. (minimum time) Best case 
