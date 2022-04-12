@@ -20,7 +20,7 @@ bool Naive_isPrime(int n)
 // Worst case: O(sqrt(n))
 bool isPrime(int n)
 {
-    for (int i = 2; i * i < n; ++i)
+    for (int i = 2; i * i <= n; ++i)
     {
         if (n % i == 0)
             return false;
@@ -50,11 +50,11 @@ bool Efficient_isPrime(int n)
     return true;
 }
 
-int main()
-{
-    int n = 7;
-    cout << "Naive IsPrime " << n << " : " << Naive_isPrime(n) << endl;
-    cout << "IsPrime " << n << " : " << isPrime(n) << endl;
-    cout << "Efficient IsPrime " << n << " : " << Efficient_isPrime(n) << endl;
-    return 1;
-}
+// int main()
+// {
+//     int n = 4;
+//     cout << "Naive IsPrime " << n << " : " << Naive_isPrime(n) << endl;
+//     cout << "IsPrime " << n << " : " << isPrime(n) << endl;
+//     cout << "Efficient IsPrime " << n << " : " << Efficient_isPrime(n) << endl;
+//     return 1;
+// }
