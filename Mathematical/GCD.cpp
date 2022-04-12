@@ -25,3 +25,11 @@ int Naive_GCD(int a, int b)
 
     return 1;
 }
+
+// int main()
+// {
+
+//     cout << GCD_Recursive_Euclid(48, 16) << endl;
+//     cout << Naive_GCD(48, 16) << endl;
+//     return 1;
+// }
